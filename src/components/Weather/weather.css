@@ -1,0 +1,53 @@
+.weather-wrapper{
+  width: 20%;
+  margin: 150px auto 0;
+  color:  #fff;
+  text-align: center;
+  background-color: #152C39;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.input{
+  width: 200px;
+display: block;
+border: transparent;
+outline: transparent;
+background-color: transparent;
+margin: 0 auto;
+padding: 10px;
+text-align: center;
+}
+
+.input:active{
+  color: #fff;
+}
+
+.input:focus{
+  color: #fff;
+}
+input::placeholder{
+color: #fff;
+opacity: 0.7;
+}
+
+.title{
+  font-size: 36px;
+text-align: center;
+margin: 0;
+margin-bottom: 10px;
+}
+
+.description{
+  width: 110px;
+  font-size: 16px;
+  margin: 0 auto;
+  background-color: #363361;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.temp{
+  font-size: 32px;
+  margin: 0;
+}
